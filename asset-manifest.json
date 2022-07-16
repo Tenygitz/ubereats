@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ubereats/static/css/main.4eec1d1e.css",
+    "main.js": "/ubereats/static/js/main.89325442.js",
+    "static/media/pexels.jpeg": "/ubereats/static/media/pexels.1c6af0806b87d46e81d0.jpeg",
+    "static/media/heart.svg": "/ubereats/static/media/heart.fc49ffdb30f551ce2ca82e4859eddde3.svg",
+    "index.html": "/ubereats/index.html",
+    "main.4eec1d1e.css.map": "/ubereats/static/css/main.4eec1d1e.css.map",
+    "main.89325442.js.map": "/ubereats/static/js/main.89325442.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4eec1d1e.css",
+    "static/js/main.89325442.js"
+  ]
+}
