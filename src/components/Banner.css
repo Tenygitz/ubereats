@@ -1,0 +1,103 @@
+.banner{
+    background-image:url("../assets/pexels.jpeg");
+    height: 70vh;
+    width: 100%;
+    background-size: cover;
+    
+}
+@media screen and (max-width:767px){
+    .banner{
+        height: 50vh;
+        width: 100%;
+        background-position: 20px;
+    }
+}
+.bannerContent {
+    position: absolute;
+    text-align: center;
+    top: 12%;
+    transform: translate(50%, 50%);
+
+}
+@media screen and (max-width:767px){
+    .bannerContent {
+        position: absolute;
+        text-align: center;
+        top: 175px;
+        left:10px;
+        transform: none;
+       
+    
+    }
+}
+.linear-gradient{
+
+    
+    height: 70vh;
+    width: 100%;
+    z-index: 1;
+    background: rgba(0, 0,0,.4);
+    background-image: linear-gradient(to top,rgba(0,0,0,.8)90,
+    rgba(0,0,0,0)80%,
+    rgba(0,0,0,.8)100%
+
+    );
+
+}
+@media screen and (max-width:767px){
+    .linear-gradient{
+
+    
+        height: 50vh;
+        width: 100%;}
+}
+.bannerContent h1{
+    font-size: 40px;
+    color: whitesmoke;
+    font-weight: 900;
+}
+@media screen and (max-width:767px){
+    .bannerContent h1{
+        font-size: 27px;
+       
+    }
+}
+.bannerContent h4{
+    margin-top: 40px;
+
+        color: lightgray;
+    
+}
+@media screen and (max-width:767px){
+    .bannerContent h4{
+        margin-top: 20px;
+    
+           
+        
+    }
+}
+.bannerContent .Btn{
+    margin-top: 40px;
+   
+
+}
+.bannerContent .playstoreBTn{
+    color: aliceblue;
+margin-right: 20px;
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+font-weight: 800;
+
+background-color: #3FC060;
+cursor: pointer;
+}
+.bannerContent .appstoreBtn{
+    padding: 10px 20px;
+border: 2px solid whitesmoke;
+border-radius: 5px;
+color: aliceblue;
+background-color: transparent;
+font-weight: 800;
+cursor: pointer;
+}

@@ -1,0 +1,28 @@
+.AddToCart{
+    display: flex;
+    width: 100px;
+    
+    position: fixed;
+    top:35%;
+    right: 0;
+    background-color: #f8d273;
+    box-shadow: 1px 1px 1px rgba(#000, 0.8);
+    text-align: center;
+    color: azure;
+}
+.AddToCart-content img{
+    width: 100%;
+    height:100px;
+    object-fit: cover;
+}
+.AddToCart-content h5{
+    text-align: center;
+    padding-left: 12px;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.AddToCart-heading{
+    padding: 5px;
+}
+.AddToCart-heading i{
+    color: rgb(56, 54, 54)} 

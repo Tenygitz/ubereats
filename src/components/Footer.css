@@ -1,0 +1,85 @@
+.footer{
+    height:61vh;
+    background-color: rgba(131, 206, 18, 0.705);
+    color:whitesmoke;
+}
+.logo-footer{
+    height: 100px;
+    width: 70%;
+    object-fit: cover;
+}
+.footer-main{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 80px;
+}
+.footer-main  .links h3{
+    color: black;
+    font-weight: 900;
+    font-size: 28px;
+}
+.footer-main .links li,a{
+    color: white;
+    padding-top:5px;
+    padding-bottom: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+}
+.footer-main .links a:hover{
+    color:  #3FC060;
+}
+.footer-end{
+    display: flex;
+}
+.footer-ed{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    margin-right: 10px;
+    
+}
+.footer-ed h5{
+ font-size: 20px;
+}
+.footer-end h5{
+    
+        color: aliceblue;
+        margin: 10px;
+        font-size: 20px;
+
+}
+.footer-end h5:hover{
+    color: #3FC060;
+}
+.footer-end1  .fa-facebook{
+   
+        color:blue;
+        padding: 0px;
+        font-size: 30px;
+        background-color: aliceblue;
+        margin-right: 10px;
+    
+}
+.footer-end1 .fa-instagram-square{
+    color: rgb(253, 62, 14) ;
+        background-color: aliceblue;
+        font-size: 30px;
+        margin-right: 10px;
+}
+.footer-end1 .fa-youtube{
+    
+        color:rgba(255, 0, 0, 0.856);
+
+        background-color: aliceblue;
+        font-size: 30px;
+        margin-right: 10px;
+    
+}
+
+.footer-info input{
+    
+        padding: 5px 10px;
+        color:black;
+        margin-bottom: 10px;}
+        
