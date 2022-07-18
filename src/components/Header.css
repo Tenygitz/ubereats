@@ -18,7 +18,7 @@
     height:12vh;
     width: 100%;
     z-index: 1;
-    background: rgba(0, 0,0,.4);
+    background: rgba(51, 35, 35, 0.4);
     background-image: linear-gradient(to top,rgba(0,0,0,.8)90,
     rgba(0,0,0,0)80%,
     rgba(0,0,0,.8)100%)

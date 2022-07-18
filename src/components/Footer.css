@@ -3,15 +3,41 @@
     background-color: rgba(131, 206, 18, 0.705);
     color:whitesmoke;
 }
+@media screen and (max-width:767px){
+    .footer{
+        height:130vh;
+      
+    }
+}
 .logo-footer{
     height: 100px;
     width: 70%;
     object-fit: cover;
 }
+@media screen and (max-width:767px){
+    .logo-footer{
+        height: 100px;
+        width: 50%;
+        
+    }
+}
 .footer-main{
     display: flex;
     justify-content: space-evenly;
     padding-top: 80px;
+}
+@media screen and (max-width:767px){
+    .footer-main{
+        display: block;
+        padding-top: 10px;
+        padding-left: 20px;
+        
+    }
+}
+@media screen and (max-width:767px){
+    .links{
+        margin-bottom: 10px;
+    }
 }
 .footer-main  .links h3{
     color: black;
@@ -39,8 +65,25 @@
     margin-right: 10px;
     
 }
+@media screen and (max-width:767px){
+    .footer-ed{
+        display: block;
+        padding-top: 10px;
+        margin-right: 10px;
+        margin-left: 10px;
+        
+    }
+}
 .footer-ed h5{
  font-size: 20px;
+ 
+}
+@media screen and (max-width:767px){
+    .footer-ed h5{
+        
+        margin-left: 10px;
+        
+       }
 }
 .footer-end h5{
     
@@ -51,6 +94,12 @@
 }
 .footer-end h5:hover{
     color: #3FC060;
+}
+@media screen and (max-width:767px){
+    .footer-end1{
+        margin-left: 10px;
+        margin-bottom: 30px;
+    }
 }
 .footer-end1  .fa-facebook{
    

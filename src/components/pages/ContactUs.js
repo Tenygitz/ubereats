@@ -38,8 +38,8 @@ function ContactUs() {
                 <input type="email" placeholder='Your Email'/>
                 <input type="number" placeholder='Your Number'/>
                 <input type="textarea" placeholder='Message'/>
-                <input type="submit"/>
-                <input type="reset"/>
+                <input className="submit"type="submit"/>
+                <input className="submit"type="reset"/>
             </div></div>
        
         
