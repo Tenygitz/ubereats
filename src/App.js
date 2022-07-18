@@ -28,7 +28,8 @@ function App() {
       
       <Banner/>
       
-     
+      <div className='cardContainer'> <h1>destination</h1>{card}<aside><h2>favorite</h2><i class="fa-solid fa-circle-xmark"></i><img className='favimg' src={favImage}/></aside></div>
+ <Routes><Route path="/" element={<Menu/>}/></Routes>
 <Routes>
   <Route path="Contact" element={<ContactUs/>}/>
 </Routes>
